@@ -1,0 +1,9 @@
+{
+  "name": "origami-core-server-errors",
+  "version": "0.0.1-dev.1",
+  "description": "Error responses for Origami CMS",
+  "main": "index.js",
+  "repository": "https://github.com/origami-cms/core-server-errors.git",
+  "author": "Tristan Matthias <hello@tristanmatthias.com>",
+  "license": "MIT"
+}

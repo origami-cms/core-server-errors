@@ -1,0 +1,5 @@
+{
+    "auth": {
+        "noHeader": ["No 'Authorization' header found", 401]
+    }
+}

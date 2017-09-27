@@ -1,5 +1,9 @@
 {
     "auth": {
-        "noHeader": ["No 'Authorization' header found", 401]
+        "noHeader": ["No 'Authorization' header found", 401],
+        "noUser": ["Email or password was incorrect", 400]
+    },
+    "request": {
+        "invalid": ["Invalid request", 400]
     }
 }

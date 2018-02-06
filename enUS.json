@@ -37,7 +37,8 @@
 
     "theme": {
         "errors": {
-            "notFound": ["No theme can be found with that id", 404]
+            "notFound": ["No theme can be found with that id", 404],
+            "render": ["Could not render page from theme", 500]
         },
         "success": {
             "create": ["Successfully created theme", 201],
@@ -45,6 +46,20 @@
             "delete": ["Successfully deleted theme", 200],
             "getList": ["Successfully retrieved themes", 200],
             "getOne": ["Successfully retrieved theme", 200]
+        }
+    },
+
+    "page": {
+        "errors": {
+            "notFound": ["No page can be found with that id", 404],
+            "render": ["Error rendering page", 500]
+        },
+        "success": {
+            "create": ["Successfully created page", 201],
+            "update": ["Successfully updated page", 200],
+            "delete": ["Successfully deleted page", 200],
+            "getList": ["Successfully retrieved pages", 200],
+            "getOne": ["Successfully retrieved page", 200]
         }
     }
 }

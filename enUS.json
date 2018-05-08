@@ -5,6 +5,16 @@
         }
     },
 
+    "resource": {
+        "errors": {
+            "notFound": ["Resource not found", 404]
+        },
+        "success": {
+            "getOne": ["Successfully retrieved resource", 200],
+            "getList": ["Successfully retrieved resources", 200]
+        }
+    },
+
     "auth": {
         "errors": {
             "noHeader": ["No 'Authorization' header found", 401],
@@ -60,6 +70,12 @@
             "delete": ["Successfully deleted page", 200],
             "getList": ["Successfully retrieved pages", 200],
             "getOne": ["Successfully retrieved page", 200]
+        }
+    },
+
+    "setup": {
+        "errrors": {
+            "initialUser": ["Initial user for Origami is already setup", 401]
         }
     }
 }

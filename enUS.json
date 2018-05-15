@@ -10,8 +10,11 @@
             "notFound": ["Resource not found", 404]
         },
         "success": {
-            "getOne": ["Successfully retrieved resource", 200],
-            "getList": ["Successfully retrieved resources", 200]
+            "foundOne": ["Successfully retrieved resource", 200],
+            "foundList": ["Successfully retrieved resources", 200],
+            "created": ["Successfully created resource", 200],
+            "updated": ["Successfully updated resource", 200],
+            "deleted": ["Successfully deleted resource", 200]
         }
     },
 
@@ -39,8 +42,8 @@
             "create": ["Successfully created user", 201],
             "update": ["Successfully updated user", 200],
             "delete": ["Successfully deleted user", 200],
-            "getList": ["Successfully retrieved users", 200],
-            "getOne": ["Successfully retrieved user", 200]
+            "foundList": ["Successfully retrieved users", 200],
+            "foundOne": ["Successfully retrieved user", 200]
         }
     },
 
@@ -54,8 +57,8 @@
             "create": ["Successfully created theme", 201],
             "update": ["Successfully updated theme", 200],
             "delete": ["Successfully deleted theme", 200],
-            "getList": ["Successfully retrieved themes", 200],
-            "getOne": ["Successfully retrieved theme", 200]
+            "foundList": ["Successfully retrieved themes", 200],
+            "foundOne": ["Successfully retrieved theme", 200]
         }
     },
 
@@ -68,8 +71,8 @@
             "create": ["Successfully created page", 201],
             "update": ["Successfully updated page", 200],
             "delete": ["Successfully deleted page", 200],
-            "getList": ["Successfully retrieved pages", 200],
-            "getOne": ["Successfully retrieved page", 200]
+            "foundList": ["Successfully retrieved pages", 200],
+            "foundOne": ["Successfully retrieved page", 200]
         }
     },
 

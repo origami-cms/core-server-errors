@@ -1,6 +1,6 @@
 {
   "name": "origami-core-server-statuses",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Status responses for Origami CMS",
   "main": "index.js",
   "repository": "https://github.com/origami-cms/core-server-statuses.git",

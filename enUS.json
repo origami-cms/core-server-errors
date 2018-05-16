@@ -25,6 +25,10 @@
             "invalidJWT": ["Supplied JWT is incorrect", 400],
             "expired": ["Supplied JWT has expired", 401],
             "noUser": ["Email or password is incorrect", 400]
+        },
+        "success": {
+            "verified": ["JWT is valid", 200],
+            "login": ["Sucessfully logged in", 200]
         }
     },
 
